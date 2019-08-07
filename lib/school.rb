@@ -30,7 +30,7 @@ attr_accessor :name, :roster
 
     def sort
      #   roster.sort.to_h #just calling .sort flattens to an array, use .to_h to maintain hash format
-       roster.sort_by {|k,v| k }.to_h
+      # roster.sort_by {|k,v| k }.to_h
         
         #loop through and sort each grade, and then loop through and sort each student
         sorted = {}
